@@ -26,17 +26,19 @@ const letzterPosition = (number) => {
 var letters = /[A-Za-z]/gi
 var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var alphabet = str.match(letters);
-//console.log(alphabet)
 let onum = "invalid"
 if(number >= 1 && number <= 26){
     //console.log(alphabet[30])
    return alphabet[30]
 }else{
-    //console.log(onum)
+   // console.log(onum)
     return onum
 }
 }
-letzterPosition(35)
+//letzterPosition(1)
+//letzterPosition(31)
+console.log(letzterPosition(1))
+console.log(letzterPosition(31))
 
 
 
